@@ -1,6 +1,7 @@
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
 import { AboutUs } from './AboutUs';
+import { Banner } from './Banner';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
 import { VerticalFeatures } from './VerticalFeatures';
@@ -11,6 +12,7 @@ const Base = () => (
     <Hero />
     <VerticalFeatures />
     <AboutUs />
+    <Banner />
     <Footer />
   </div>
 );
